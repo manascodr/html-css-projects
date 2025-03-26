@@ -228,38 +228,7 @@ h1{
 }
 
 .view-5{
-    background-color: #faebc5;
-    border-radius: 1rem;
-    padding: 3rem 1rem;
-
-    .top{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        align-items: center;
-        justify-content: center;
-        
-
-        h3{
-            text-align: center;
-            font-size: 1.9rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-        .items{
-            display: flex;
-            gap: 1rem;
-            overflow: hidden;
-            flex-shrink: 0;
-            p{
-                
-                background-color: #feadd2;
-                padding:2rem;
-                border-radius:1rem;
-                font-size: .9rem;
-            }
-        }
-    }
+    display: none;
 }
 
 @media(min-width:1024px) {
@@ -408,4 +377,69 @@ h1{
         }
     }
 
+    .view-5{
+        display: block;
+        background-color: #faebc5;
+        border-radius: 2rem;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+
+        p:nth-child(2){
+            font-size: 1.2rem;
+            text-align: center;
+            width: 25%;
+        }
+    
+        .top{
+            padding: 0 13rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            p{
+                font-size: 1.2rem;
+            }
+            
+            h3{
+                text-align: center;
+                font-size: 3.3rem;
+                font-weight: 600;
+                text-align: center;
+                padding: 0px 3rem;
+            }
+            .items{
+                display: flex;
+                gap: 1rem;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+                // text-align: center;
+                p{
+                    width: 48.5%;
+                    display: flex;
+                    align-items: center;
+                    padding:1.3rem 1.5rem;
+                    border-radius:1rem;
+                    font-size: .9rem;
+                }
+                p:nth-child(1){
+                    background-color: #ffbe81;
+                }
+                p:nth-child(2){
+                    background-color: #feadd2;
+                }
+                p:nth-child(3){
+                 background-color: #feadd2;
+                }
+                p:nth-child(4){
+                    background-color: #ffbe81;
+
+                }
+            }
+        }
+    }
+    
 }
