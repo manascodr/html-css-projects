@@ -248,29 +248,6 @@ h1 {
 .view-5 .top {
   display: none;
 }
-.view-5 .bottom {
-  width: 100%;
-  display: flex;
-  gap: 1rem;
-}
-.view-5 .bottom .bottom-top {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.view-5 .bottom .bottom-top div {
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 1rem 2rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-.view-5 .bottom .bottom-top div:nth-child(1) {
-  background-color: #d8d800;
-}
-.view-5 .bottom .bottom-top div:nth-child(2) {
-  background-color: #ffdf2b;
-}
 
 @media (min-width: 1024px) {
   html {
