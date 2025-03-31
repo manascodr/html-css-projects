@@ -236,7 +236,7 @@ h1{
     gap: 5rem;
     align-items: center;
 
-    p:nth-child(2){
+   & > p:nth-child(2){
         font-size: 1rem;
         text-align: center;
         width: 60%;
@@ -246,50 +246,50 @@ h1{
         display: none;
     }
 
-    // .bottom{
-    //     width: 100%;
-    //     display: flex;
-    //     flex-direction: column;
-    //     // padding: 1rem;
+    .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // padding: 1rem;
 
-    //     .bottom-top{
-    //         width: 100%;
-    //         display: flex;
-    //         justify-content: space-between;
+        .bottom-top{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
             
-    //         div{
-    //             font-size: .9rem;
-    //             font-weight: 600;
-    //             padding: 1rem 2.4rem;
-    //             border-top-left-radius: 1rem;
-    //             border-top-right-radius: 1rem;
-    //         }
-    //         div:nth-child(1){
-    //             background-color: #d8d800;
-    //         }
-    //         div:nth-child(2){
-    //             background-color: #ffdf2b;
-    //         }
-    //     }
+            div{
+                font-size: .9rem;
+                font-weight: 600;
+                padding: 1rem 2.4rem;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+            }
+            div:nth-child(1){
+                background-color: #d8d800;
+            }
+            div:nth-child(2){
+                background-color: #ffdf2b;
+            }
+        }
 
-    //     .bottom-bottom{
-    //         background-color: #d8d800;
+        .bottom-bottom{
+            background-color: #d8d800;
 
-    //         .feature-cont{
-    //             width: 100%;
-    //             display: flex;
+            .feature-cont{
+                width: 100%;
+                display: flex;
 
-    //             img{
-    //                 width: 1rem;
-    //             }
-    //             .feature{
-    //                 p{
-    //                     font-size: .8rem;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+                img{
+                    width: 1rem;
+                }
+                .feature{
+                    p{
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media(min-width:1024px) {
