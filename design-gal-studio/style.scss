@@ -261,8 +261,8 @@ h1{
                 font-size: .9rem;
                 font-weight: 600;
                 padding: 1rem 2.4rem;
-                border-top-left-radius: 1rem;
-                border-top-right-radius: 1rem;
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
             }
             div:nth-child(1){
                 background-color: #d8d800;
@@ -274,18 +274,54 @@ h1{
 
         .bottom-bottom{
             background-color: #d8d800;
+            border-bottom-right-radius: 1rem;
+            border-bottom-left-radius: 1rem;
 
             .feature-cont{
                 width: 100%;
                 display: flex;
+                padding: 1rem;
+                flex-wrap: wrap;
 
                 img{
                     width: 1rem;
                 }
                 .feature{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 1rem;
+                    gap: 1rem;
+                    img{
+                        width: 40%;
+                        
+                    }
                     p{
                         font-size: .8rem;
+                        text-align: center;
+                        line-height: 1.5;
                     }
+                }
+            }
+            .touch{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+                padding: 2rem;
+                p{
+                    font-weight: 600;
+                }
+                button{
+                    width: 100%;
+                    background-color: transparent;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    border: 1px solid black;
+                    padding: .8rem 2rem;
+                    border-radius: 2rem;
                 }
             }
         }
@@ -501,6 +537,87 @@ h1{
                 }
             }
         }
+
+        .bottom{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 3rem 5rem;
+    
+            .bottom-top{
+                width: 100%;
+                display: flex;
+                
+                div{
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    padding: 1.5rem 8.5rem;
+                    border-top-left-radius: 1.5rem;
+                    border-top-right-radius: 1.5rem;
+                }
+                div:nth-child(1){
+                    background-color: #d8d800;
+                }
+                div:nth-child(2){
+                    background-color: #ffdf2b;
+                }
+            }
+    
+            .bottom-bottom{
+                background-color: #d8d800;
+                border-bottom-right-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+    
+                .feature-cont{
+                    width: 100%;
+                    display: flex;
+                    padding: 3rem 1rem;
+                    flex-wrap: wrap;
+    
+                    img{
+                        width: 1rem;
+                    }
+                    .feature{
+                        width: 33%;
+                        display: flex;
+                        flex-direction: column;
+                        // align-items: center;
+                        padding: 2rem;
+                        gap: 1rem;
+                        img{
+                            width: 25%;
+                            
+                        }
+                        p{
+                            font-size: 1rem;
+                            // text-align: center;
+                            line-height: 1.5;
+                        }
+                    }
+                }
+                .touch{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 1.5rem;
+                    padding: 2rem;
+                    p{
+                        font-weight: 600;
+                    }
+                    button{
+                        width: 100%;
+                        background-color: transparent;
+                        font-weight: 600;
+                        font-size: 1rem;
+                        border: 1px solid black;
+                        padding: .8rem 2rem;
+                        border-radius: 2rem;
+                    }
+                }
+            }
+        }
+    
     }
     
 }
