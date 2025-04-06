@@ -459,6 +459,7 @@ h1 {
     flex-direction: column;
     gap: 3rem;
     align-items: center;
+    margin-bottom: 2rem;
   }
   .view-5 p:nth-child(2) {
     font-size: 1.2rem;
